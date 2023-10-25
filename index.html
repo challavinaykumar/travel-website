@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crescent</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="icon" type="image/x-icon" href="/images/fav/favicon.ico"> -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/roboto-regular-webfont.woff2"
+      as="font" type="font/woff2" crossorigin="">
+
+    <script src="https://kit.fontawesome.com/ecf444e1d2.js"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="preload" href="assets/fonts/micon.woff2" as="font"
+      type="font/woff2" crossorigin="" />
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.js"></script>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css"
+      />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.css"
+      rel="stylesheet" />
+
+
+  </head>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white fixed-top  navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./Images/logo.png" />
+      </a>
+      <button class="navbar-toggler z-10" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link flex" aria-current="page" href="#home"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#amenities">Amenities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Plann">Floor Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#specifications">Specification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-download px-2 brochure"></i>Brochure</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------------- Carousel(Home) --------------------------------------->
+  <div id="home">
+
+
+
+    <div id="carouselExampleDark" class="carousel carousel-white slide"
+      data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="./Images/2.jpg" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./Images/1.jpg" class="d-block mw-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="connect">
+    <a
+      href="https://api.whatsapp.com/send/?phone=%2B918977868125&text&type=phone_number&app_absent=0">
+      <button> <span style="padding-right: 8px;">
+          <i class="fa-brands fa-whatsapp"></i>
+        </span>+91-8977868125</button></a>
+  </div>
+
+  <!------------------------------- Form---------------------- -->
+
+  <div class="containe" id="foem">
+
+    <div class="c">
+      <h4 class="text-center my-2">BOOKING OPEN NOW</h4>
+    </div>
+
+
+    <form action="https://formspree.io/f/moqzqyev" method="POST" class="contact_form" >
+
+    <div>
+      <img src="./Images/logo.png" alt="">
+    </div>
+     <div class="input-control">
+                  <!-- <label for="username">Name</label> -->
+                  <input id="name" name="name" type="text" placeholder="Name"
+                    class="name" required>
+                  <div class="error"></div>
+                </div>
+                <div class="input-control">
+                  <!-- <label for="email">Email</label> -->
+                  <input id="email" name="email" type="text" placeholder="Email"
+                    class="email" required>
+                  <div class="error"></div>
+                </div>
+                <div class="input-control">
+                  <!-- <label for="password">Contact Number</label> -->
+                  <input id="number" name="number" type="tel"
+                    placeholder="Contact Number" class="number" required>
+
+                  <div class="error"></div>
+                </div>
+             
+                <div class="button swing">
+
+                  <button type="submit" id="clear" class="submitted">Submit</button>
+                </div>
+              </form>
+  </div>
+
+
+  <!----------------------------- about ---------------------->
+  <div id="about">
+
+    <div class="position-relative d-flex align-items-center
+      justify-content-center">
+      <h1 class="display-1 text-uppercase text-white"
+        style="-webkit-text-stroke: 1px #ec9b00;">
+        About</h1>
+      <h1 class="position-absolute text-uppercase ">About</h1>
+    </div>
+    <!-- <div><h1 class="rotate">Overview</h1></div> -->
+    <div class="boxx">
+      <div class="image col-lg-4
+        col-md-6 col-sm-12 col-xs-6">
+        <img src="./Images/a5.jpg" alt="">
+      </div>
+
+      <div></div>
+      <div class="content col-lg-6 col-md-5 col-sm-12 col-xs-6 ">
+        <h1>Home is Where The </h1>
+        <h1 style="color: #ec9b00;">Heart Is</h1>
+        <p>Situated in the heart of Serilingampalle, Hyderabad, Candeur
+          Crescent, is the embodiment of luxury and a refined lifestyle for the
+          residents.</p>
+        <p>To establish a new standard for highrise apartments, Candeur
+          Crescent, is designed to change the city skyline of Hyderabad.</p>
+        <p>RERA No. : P02500004515</p>
+        <div class="button">
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now <i class="fa-solid fa-right-long"></i></button>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <br>
+  <section class="justify">
+
+    <div class="box-containerr">
+      <div class="boxx">
+        <i class="fa-regular fa-square-full text-white"></i>
+        <br>
+        <span class="counter">5.5</span>
+        <h3 class="title">Acres <br> project area</h3>
+
+      </div>
+      <div class="boxx">
+        <i class="fa-solid fa-building text-white"></i>
+        <br>
+        <span class="counterrr">5</span>
+        <h3 class="title">Towers <br>
+          With Parking</h3>
+
+      </div>
+      <div class="boxx">
+        <i class="fa-solid fa-border-all text-white"></i>
+        <br>
+        <span class="counterrr">5</span>
+        <h3 class="title">Unit/Floor</h3>
+
+      </div>
+      <div class="boxx">
+        <i class="fa-solid fa-house text-white"></i>
+        <br>
+        <span class="counterrr">62000</span>
+        <h3 class="title">Sq.ft <br>
+          Lavish clubhouse</h3>
+
+      </div>
+      <div class="boxx">
+        <i class="fa-solid fa-arrows-up-down text-white"></i>
+        <br>
+        <span class="counterr">10.1</span>
+        <h3 class="title">Ceiling Height <br>
+          Per Each flat</h3>
+
+      </div>
+    </div>
+  </section>
+  <!-- pRICE -->
+
+
+  <section id="Plann">
+
+    <div class="position-relative d-flex align-items-center
+      justify-content-center">
+      <h1 class="display-1 text-uppercase text-white"
+        style="-webkit-text-stroke: 1px #ec9b00;">
+        Plans</h1>
+      <h1 class="position-absolute text-uppercase ">Plans</h1>
+    </div>
+
+    <!-- <div><h1 class="rotate1" >Price</h1></div> -->
+    <center>
+      <div class='plan-button'>
+        <div class="master">
+          <button style="background-color: #ec9b00;" class="master-button">Master
+            Plan</button>
+        </div>
+        <br>
+        <div class="tower">
+          <button style="background-color: black;" class="btn-2">Tower Plan</button>
+        </div>
+      </div>
+
+
+      <div class="master-plan">
+        <img src="./Images/costing-details.jpg" alt="">
+      </div>
+      <div class="build">
+        <div class="tower-plan">
+          <div>
+            <img src="./Images/a.jpg" alt="">
+          </div>
+          <div>
+            <img src="./Images/b.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="tower-plan-2">
+          <div>
+            <img src="./Images/block-c-new.jpg" alt="">
+          </div>
+          <div>
+            <img src="./Images/block-d-new.jpg" alt="">
+          </div>
+          <div>
+            <img src="./Images/block-e-new.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </center>
+
+  </section>
+
+  <!-- Floor Plan-->
+
+  <!-- ----------- Gallery ------------- -->
+
+  <Section id="gallery">
+    <div class="position-relative d-flex align-items-center
+      justify-content-center">
+      <h1 class="display-1 text-uppercase text-white"
+        style="-webkit-text-stroke: 1px #ec9b00;">
+        Gallery</h1>
+      <h1 class="position-absolute text-uppercase ">Gallery</h1>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="./Images/g1.jpg" alt="">
+
+
+      </div>
+
+      <div class="box">
+        <img src="./Images/g2.jpg" alt="">
+
+
+      </div>
+      <div class="box">
+        <img src="./Images/g3.jpg" alt="">
+
+
+      </div>
+      <div class="box">
+        <img src="./Images/g4.jpg" alt="">
+
+
+      </div>
+      <div class="box">
+        <img src="./Images/g5.jpg" alt="">
+
+
+      </div>
+      <div class="box">
+        <img src="./Images/g6.jpg" alt="">
+
+
+      </div>
+      <div class="box">
+        <img src="./Images/g7.jpg" alt="">
+
+
+      </div>
+      <div class="box">
+        <img src="./Images/g8.jpg" alt="">
+
+
+      </div>
+
+    </div>
+  </Section>
+
+
+
+
+  <!--------------------------------- Amenities----------------------------->
+  
+  <section id="amenities">
+    <div class="position-relative d-flex align-items-center
+      justify-content-center">
+      <h1 class="display-1 text-uppercase text-white"
+        style="-webkit-text-stroke: 1px #ec9b00;">
+        Amenities</h1>
+      <h1 class="position-absolute text-uppercase ">Amenities</h1>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 50px;">
+      <h2 style="color:black;">An Amalgamation of Luxurious</h2>
+      <h2 style="color:black;">Amenities & <span style="color:#ec9b00;"> Natural
+          Elements</span></h2>
+    </div>
+ <div class="fixedd">
+
+      <div class="dual">
+        <div class="icons">
+       <img src="./Images/17.png" alt="">
+    </div>
+    <div class="matter">
+        <h5>Entrance And Exit Plaza</h5>
+      </div>
+      </div>
+   
+        <div class="dual">
+          <div class="icons">
+         <img src="./Images/18.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Main Entrance Paving</h5>
+        </div>
+        </div>
+        <div class="dual">
+          <div class="icons">
+         <img src="./Images/19.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Cycling Track</h5>
+        </div>
+        </div>
+        <div class="dual">
+          <div class="icons">
+         <img src="./Images/21.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Tropical Plantation</h5>
+        </div>
+        </div>
+        <div class="dual">
+          <div class="icons">
+         <img src="./Images/22.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Amphitheater</h5>
+        </div>
+        </div>
+        <div class="dual">
+          <div class="icons">
+         <img src="./Images/23.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Half Basket Ball Court</h5>
+        </div>
+        </div>    <div class="dual">
+          <div class="icons">
+         <img src="./Images/24.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Lawn</h5>
+        </div>
+        </div>    <div class="dual">
+          <div class="icons">
+         <img src="./Images/25.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Water Body</h5>
+        </div>
+        </div>    <div class="dual">
+          <div class="icons">
+         <img src="./Images/26.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Free Standing Pylons</h5>
+        </div>
+        </div>    <div class="dual">
+          <div class="icons">
+         <img src="./Images/27.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Feature Wall</h5>
+        </div>
+        </div>    <div class="dual">
+          <div class="icons">
+         <img src="./Images/28.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Sculptures</h5>
+        </div>
+        </div>  
+   
+        <div class="dual">
+          <div class="icons">
+         <img src="./Images/29.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Stepping Stones</h5>
+        </div>
+        </div>  
+      </div>  
+      <div class="amenity">
+        
+        <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/30.png" alt="">
+      </div>
+    
+
+      
+      <div class="matter">
+          <h5>Seating Under Tree</h5>
+        </div>
+        </div>   
+         <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/31.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Grass Pavers</h5>
+        </div>
+        </div>   
+         <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/31.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Pavers</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/32.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Outdoor Gym</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/33.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Children Play Area</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/34.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Avenue Planting</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/35.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Cricket Pitch</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/36.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Security Cabins</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/37.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Car Parking Area</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/38.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Flower Garden</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/39.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Perennial Garden</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/40.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Cobble Stone Paving At Ramp Area</h5>
+        </div>
+        </div>  
+          <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/41.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Seating Decks Under Pergola</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/42.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Water Feature Opp. Clubhouse</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/43.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Fire Driveway With Granite Paving</h5>
+        </div>
+        </div>    
+        <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/44.png" alt="" style="width:90%; height: 75px;">
+      </div>
+      <div class="matter">
+          <h5>ATM</h5>
+        </div>
+        </div>  
+          <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/45.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Pharmacy</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/46.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Super Market</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/47.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Clinic</h5>
+        </div>
+        </div>       
+        <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/49.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Table Tennis</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/50.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Billiards</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/51.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Yoga Room</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/52.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Gym</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/53.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Steam And Sauna Room
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/54.png" alt="" style="width:80%; height: 60px;" >
+      </div>
+      <div class="matter">
+          <h5>Restaurant</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/55.png" alt="" >
+      </div>
+      <div class="matter">
+          <h5>Squash Court
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/56.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Conference Room
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/57.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Spa And Saloon
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/58.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Home Theater
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/59.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Indoor Swimming Pool
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/60.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Guest Suite
+          </h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/61.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Board Games</h5>
+        </div>
+        </div>    <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/62.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Mini Football Court</h5>
+        </div>
+        </div>
+        <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/63.png" alt="">
+      </div>
+        <div class="matter">
+          <h5>Terrace Sitting Area</h5>
+        </div>
+        </div> 
+           <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/64.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Barbecue Zone
+          </h5>
+        </div>
+        </div>
+        <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/65.png" alt="">
+      </div>
+        <div class="matter">
+          <h5>Banquet Hall With Kitchen</h5>
+        </div>
+        </div>   
+         <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/66.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Indoor Badminton Court's</h5>
+        </div>
+        </div>
+     
+        
+         <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/67.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Work Stations (Work From Home)</h5>
+        </div>
+        </div>
+     
+          <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/68.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Grand Entry Lobby With Help Desk</h5>
+        </div>
+        </div>
+     
+        <div class="dual readmore">
+          <div class="icons">
+         <img src="./Images/69.png" alt="">
+      </div>
+      <div class="matter">
+          <h5>Aerobics And Dance Room</h5>
+        </div>
+        </div>
+      </div> 
+  
+    </div> 
+
+<div class="moreless-button">
+    <a class="more-button" > Read more</a>
+  </div>
+ 
+  </Section>
+
+
+  <!-------------------------- Specifications --------------->
+
+  <section id="specifications">
+    <div class="position-relative d-flex align-items-center
+      justify-content-center">
+      <h1 class="display-1 text-uppercase text-white"
+        style="-webkit-text-stroke: 1px #ec9b00;">
+        specifications</h1>
+      <h1 class="position-absolute text-uppercase ">specifications</h1>
+    </div>
+
+
+    <div class="dual">
+      <div class="dual-1 common">
+        <div class="toggle" id="spec1">
+          <h3> <i class="fa-solid fa-circle-check"></i> Super structure <i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul1">
+          <li>
+            RCC shear wall-framed structure, resistant to wind and earthquake
+            (Zone -2).
+          </li>
+        </ul>
+
+
+
+        <div class="toggle" id="spec2">
+          <h3><i class="fa-solid fa-circle-check"></i> Walls<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul2">
+          <li>
+            External Walls : Reinforced shear walls
+          </li>
+          <li>Internal Walls : Reinforced shear walls</li>
+        </ul>
+
+
+
+
+        <div class="toggle" id="spec3">
+          <h3> <i class="fa-solid fa-circle-check"></i> Ceiling Finishes<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul3">
+          <li>
+            DRAWING, DINING, LIVING, BEDROOMS, KITCHEN AND BALCONY : Smoothly
+            finished with putty and acrylic
+            emulsion paint.
+          </li>
+          <li>BATHROOMS : Grid ceiling to cover all service lines.</li>
+        </ul>
+
+
+        <div class="toggle" id="spec4">
+          <h3><i class="fa-solid fa-circle-check"></i> Wall finishing<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul4">
+          <li>
+            DRAWING, DINING, LIVING, BEDROOMS, KITCHEN AND BALCONY: Smooth
+            finish with putty and acrylic
+            emulsion paint.
+          </li>
+          <li>BATHROOMS : Reputed make of GVT/ Ceramic tiles cladding up to
+            lintel height.</li>
+          <li>EXTERNAL FINISHING : Two coats of exterior emulsion paint of
+            reputed brands with architectural
+            features.</li>
+        </ul>
+
+        <div class="toggle" id="spec5">
+          <h3><i class="fa-solid fa-circle-check"></i>flooring<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul5">
+          <li>
+            DRAWING, DINING, LIVING, BEDROOMS, KITCHEN AND BALCONY: Smooth
+            finish with putty and acrylic
+            emulsion paint.
+          </li>
+          <li>BATHROOMS : Reputed make of GVT/ Ceramic tiles cladding up to
+            lintel height.</li>
+          <li>EXTERNAL FINISHING : Two coats of exterior emulsion paint of
+            reputed brands with architectural
+            features.</li>
+        </ul>
+
+        <div class="toggle" id="spec6">
+          <h3><i class="fa-solid fa-circle-check"></i>windows<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul6">
+          <li>
+            All windows are of UPVC glazed sliding / open-able shutters with
+            EPDM gaskets, necessary hardware
+            with provision for mosquito mesh shutter.
+          </li>
+        </ul>
+        <div class="toggle" id="spec7">
+          <h3><i class="fa-solid fa-circle-check"></i>doors<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul7">
+          <li>
+            MAIN DOOR : Hard wood frame, finished with melamine spray polish.
+            Teak finished flush shutters
+            with reputed hardware.
+          </li>
+          <li>INTERNAL DOORS : Hard wood frame or factory made wooden frame with
+            both side laminated flush
+            shutter with reputed hardware.</li>
+          <li>BATHROOMS/UTILITY DOORS : Hard wood frame or factory made wooden
+            frame with both side laminated
+            flush shutter with reputed hardware.</li>
+          <li>BALCONIES : UPVC glazed French sliding doors with mosquito mesh
+            provision.</li>
+        </ul>
+        <div class="toggle" id="spec8">
+          <h3><i class="fa-solid fa-circle-check"></i>All bathrooms<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul8">
+          <li>
+            Wash basin with single lever basin mixer.
+          </li>
+          <li>Wall Mounted WC with flush tank of the reputed brand.</li>
+          <li>Single lever bath and shower mixer.</li>
+          <li>Provision for geysers in all bathrooms.</li>
+          <li>All faucets are chrome plated of reputed brands.</li>
+        </ul>
+
+        <div class="toggle" id="spec9">
+          <h3><i class="fa-solid fa-circle-check"></i>lpg/png<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul9">
+          <li>
+            Provision for LPG/PNG with piped gas system.
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="dual-2 common">
+        <div class="toggle" id="spec10">
+          <h3><i class="fa-solid fa-circle-check"></i>Electrical<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul10">
+          <li>
+            Concealed copper wiring of reputed make.
+          </li>
+          <li>Power outlet for air conditioners in all Bed rooms and living.</li>
+          <li>Power outlets for geysers in all bathrooms.</li>
+          <li>Power outlets for chimney, hob, refrigerator, microwave oven,
+            mixer/grinder in kitchen.</li>
+          <li>Washing machine and dishwasher point in utility area.</li>
+          <li>Three phase supply for each unit and individual Prepaid meters.</li>
+          <li>Miniature circuit breakers (MCB) for each distribution board of
+            reputed make.</li>
+          <li>Modular switches of reputed make.</li>
+        </ul>
+        <div class="toggle" id="spec11">
+          <h3><i class="fa-solid fa-circle-check"></i>Lifts<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul11">
+          <li>
+            V3F drive high speed lifts of Reputed make.
+          </li>
+          <li>Lift lobby cladding with vitrified tiles &amp; granite in 1st
+            floor entry lobby.</li>
+        </ul>
+        <div class="toggle" id="spec12">
+          <h3><i class="fa-solid fa-circle-check"></i>Tv/telephone<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul12">
+          <li>
+            Intercom facility to all units Connecting Security.
+          </li>
+          <li>Provision for Cable TV Connection in Drawing, Living and all
+            Bedrooms.</li>
+          <li>One Internet connection provision in Drawing.</li>
+        </ul>
+        <div class="toggle" id="spec13">
+          <h3><i class="fa-solid fa-circle-check"></i>water proofing<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul13">
+          <li>
+            Waterproofing shall be provided for all Bathrooms, Balconies,
+            Utility Area &amp; Roof terrace.</li>
+        </ul>
+        <div class="toggle" id="spec14">
+          <h3><i class="fa-solid fa-circle-check"></i>Security<i class="fa-solid
+              fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul14">
+          <li>
+            Sophisticated round the clock security/ surveillance system.</li>
+          <li>Surveillance cameras (CCTV) at the main security and at the
+            entrance of the block &amp; lift cabin.
+          </li>
+        </ul>
+        <div class="toggle" id="spec15">
+          <h3><i class="fa-solid fa-circle-check"></i>fire safety<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul15">
+          <li>Fire alarm, automatic sprinklers and wet risers as per Fire
+            Authority Regulations.</li>
+          <li>Corner cornice will be provided where ever Firefighting pipes are
+            visible in the flat.</li>
+        </ul>
+        <div class="toggle" id="spec16">
+          <h3><i class="fa-solid fa-circle-check"></i>Power back up<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul16">
+          <li>100% DG backup with acoustic enclosure and AMF.</li>
+        </ul>
+        <div class="toggle" id="spec17">
+          <h3><i class="fa-solid fa-circle-check"></i>wtp & stp<i
+              class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul class="ul17">
+          <li>Water treatment plant for bore-well water.</li>
+          <li>A Sewage Treatment plant of adequate capacity as per norms inside
+            the project.</li>
+          <li>Treated sewage water for the landscaping and flushing purpose.</li>
+          <li>Garbage chute will be provided.</li>
+        </ul>
+
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!---------------------- project overview -------------------->
+
+  <section id="projects">
+    <div class="position-relative d-flex align-items-center
+      justify-content-center">
+      <h1 class="display-1 text-uppercase text-white"
+        style="-webkit-text-stroke: 1px #ec9b00;">
+        Our Projects</h1>
+      <h1 class="position-absolute text-uppercase ">Our Prestigious Projects</h1>
+    </div>
+
+
+    <div class="mini-carousel">
+      <div class="hyderabad building">
+        <div id="carouselExampleDark" class="carousel carousel-white slide"
+          data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="./Images/Candeur-Rise.jpg" class="d-block " alt="...">
+              <div class="carousel-caption d-md-block bg-black">
+                <h5>New Launch | Candeur Crescent</h5>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./Images/candeur-40.jpg" class="d-block mw-100"
+                alt="...">
+              <div class="carousel-caption d-md-block bg-black">
+                <h5>Ongoing Projects | Candeur 40</h5>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carosel-content">
+          <p>Projects | Hyderabad</p>
+          <p>We cemented our position in Hyderabad more than 2 years ago with a
+            High Rise Project
+            of 40 floors and we have 2 more projects upcoming in the pipeline.
+            We are very upbeat
+            about our Hyderabad projects and are overwhelmed by the response we
+            have got so far.
+            We will continue to keep striving for excellence and quality in
+            whatever we deliver.</p>
+        </div>
+      </div>
+
+      <div class="banglore building">
+        <div id="carouselExampleDark" class="carousel carousel-white slide"
+          data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="./Images/candeur-ris.jpg" class="d-block " alt="...">
+              <div class="carousel-caption d-md-block bg-black">
+                <h5>Completed Projects | Candeur Rise</h5>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./Images/Candeur-Landmark.jpg" class="d-block"
+                alt="...">
+              <div class="carousel-caption d-none d-md-block bg-black">
+                <h5>Completed Projects | Candeur Landmark</h5>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./Images/Candeur-Signature.jpg" class="d-block "
+                alt="...">
+              <div class="carousel-caption d-md-block bg-black">
+                <h5>Completed Projects | Candeur Signature</h5>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./Images/Candeur-Carlisle.jpg" class="d-block "
+                alt="...">
+              <div class="carousel-caption d-none d-md-block bg-black">
+                <h5>Completed Projects | Candeur Carlisle</h5>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./Images/Candeur-Sunshine.jpg" class="d-block "
+                alt="...">
+              <div class="carousel-caption d-md-block bg-black">
+
+                <h5>Ongoing Projects | Candeur Sunshine</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carosel-content">
+            <p>Projects | Banglore</p>
+            <p>We are one among the leading Real Estate Developers in Bengaluru,
+              having delivered
+              4 lifestyle projects. We have always ensured that we live up to
+              our commitments and
+              have delivered our projects on time. This explains why majority of
+              our upcoming projects
+              are being sold majorly through our existing client references.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="hackthon">
+      <div class="video both">
+        <video autoplay muted controls width="100%">
+          <source src="./video/pureathon_sd_candid_video.mp4">
+        </video>
+      </div>
+      <div class="hack both">
+        <h3>PUREathon 2022 - a 2k/5k walk/run event in Hyderabad on the 09th
+          October, 2022.</h3>
+        <p>A great success story in our 2022 calendars. Witness a mass turn-out
+          and the energy
+          the public brought to the streets of Hyderabad supporting the cause,
+          Menstruation matters,
+          and the need to end period poverty.</p>
+        <p>Candeur Crescent thanks each and everyone for supporting us. </p>
+      </div>
+    </section>
+
+
+    <!---------------------- Map View----------------------------->
+
+    <section id="specifications" style="margin-top: -50px;">
+      <div class="position-relative d-flex align-items-center
+        justify-content-center">
+        <h1 class="display-1 text-uppercase text-white"
+          style="-webkit-text-stroke: 1px #ec9b00;">
+          location</h1>
+        <h1 class="position-absolute text-uppercase ">Location</h1>
+      </div>
+
+
+      <div class="dual">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3805.551599660651!2d78.319728!3d17.481163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf7d1ff4d06387f6!2sCandeur%20Crescent!5e0!3m2!1sen!2sin!4v1673079278274!5m2!1sen!2sin"
+          width="100%" height="450" style="border:0;" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="dual-1 common">
+          <div class="toggle" id="toggle1">
+            <h3> <i class="fa-solid fa-circle-check"></i> IT/Corporates <i
+                class="fa-solid fa-caret-down"></i></h3>
+          </div>
+          <ul class="it">
+            <li>Gachibowli – 5 kms</li>
+            <li>TCS, DLF – 5.5 kms</li>
+            <li>Wipro – 7 Kms</li>
+            <li>Microsoft – 9.5 kms</li>
+            <li>Google - 8 kms </li>
+            <li>ICICI - 8. kms</li>
+            <li>IBM - 7.5 kms</li>
+            <li>Deloitte - 8.5 kms</li>
+            <li>Financial District - 10 kms</li>
+          </ul>
+
+          <div class="toggle" id="toggle2">
+            <h3><i class="fa-solid fa-circle-check"></i>Education<i class="fa-solid fa-caret-down"></i></h3>
+          </div>
+          <ul class="education">
+            <li>The University of Hyderabad - 2.6 kms</li>
+            <li>IIT - Hyderabad - 6.2 kms</li>
+            <li>Indian School of Business - 8kms</li>
+            <li>Sancta Maria International School – Next Door</li>
+            <li>Birla Open Minds Pre School</li>
+            <li>Sadhana Infinity School</li>
+            <li>Chirec International School</li>
+            <li>Glendale International School</li>
+            <li>Manthan International School</li>
+            <li>Unicent International School</li>
+        
+        </ul>
+          <div class="toggle" id="toggle3">
+            <h3><i class="fa-solid fa-circle-check"></i>Hospital<i class="fa-solid fa-caret-down"></i></h3>
+          </div>
+          <ul class="hospital">
+            <li>Citizen Speciality Hospital – 3.5 kms
+            </li>
+            <li>KIMS Hospital - 7.3 kms</li>
+            <li>AIG Hospital – 7.9 kms</li>
+            <li>Continental Hospital – 9.2 kms</li>
+         
+          </ul>
+          <div class="toggle" id="toggle4">
+            <h3><i class="fa-solid fa-circle-check"></i>Connectivity<i class="fa-solid fa-caret-down"></i></h3>
+          </div>
+          <ul class="connect">
+            <li>Rajiv Gandhi Int Airport – 29 kms</li>
+            <li>Lingampalli Railway Station – 0.2 kms</li>
+            <li>Gachibowli ORR - 9 kms</li>
+            <li>Raidurg Metro Station - 7.4 kms</li>
+          </ul>
+          <div style="position: relative;">
+          <div class="toggle" id="toggle5">
+            <h3><i class="fa-solid fa-circle-check"></i>Entertainment<i class="fa-solid fa-caret-down"></i></h3>
+          </div>
+          <div> 
+          <ul class="mall">
+            <li>Sarath City Capital Mall - 5.1 kms
+            </li>
+            <li>GSM Mall – 4 kms</li>
+            <li>SLN Terminus – 7.2 kms</li>
+            <li>Inorbit Mall - 11.8 kms</li>
+            <li>The Chennai Shopping Mall</li>
+            <li>Maangalya Shopping Mall</li>
+            <li>South India Shopping Mall</li>
+            <li>Sarath City Capital mall</li>
+            <li>Atrium Mall</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+<!-- contact us -->
+
+
+<section id="contact">
+  <div class="position-relative d-flex align-items-center justify-content-center">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ec9b00;">
+       Contact</h1>
+    <h1 class="position-absolute text-uppercase ">Contact Us </h1>
+    </div>
+  <div class="contact">
+    <div class="touch div-2">
+      <h1>Get in <span>Touch</span></h1>
+      <p style="font-size: 20px; ">We would love to hear from you. Drop us a mail or reach out to us over a call and we would love to be a part of your home buying experience.</p>
+      <div class="d-flex" style="font-size: 20px;">
+        <div style="margin-right: 20px;">
+      <i class="fa-solid fa-mobile-screen-button" style="background-color: #ec9b00; padding: 10px; border-radius: 50%; color: white;"></i>
+    </div>
+    <div>
+      </div>
+      <p>91-8977868125</p>
+    </div>
+    <div class="d-flex mt-4" style="font-size: 20px;" >
+      <div style="margin-right: 20px;">
+      <i class="fa-sharp fa-solid fa-location-dot" style="background-color: #ec9b00; padding: 10px; border-radius: 50%; color: white;"></i>
+    </div>
+     <div>
+      
+      <p> <span class="space3">245, S.No. 104 &amp; 106, Next to Sancta Maria </span>
+        <br>
+        <span class="space">International School Serilingampalle-Gachibowli </span>
+        <br>
+        <span class="space1 mr-3">Road, Serilingampalle, Hyderabad-500019</span></p>
+      </div>
+      </div>
+      </div>
+    <div class="div-2 send">
+      <h1>Send Message</h1>
+      <form action="https://formspree.io/f/moqzqyev" method="POST" class="contact_form" >
+
+       
+       
+        <div class="text-center">
+       
+        <div class="input-control">
+          <!-- <label for="username">Name</label> -->
+          <input id="name" name="name" type="text" placeholder="Name" class="name" required>
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <!-- <label for="email">Email</label> -->
+          <input id="email" name="email" type="text" placeholder="Email" class="email"   required>
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <!-- <label for="password">Contact Number</label> -->
+          <input id="number" name="number" type="tel" placeholder="Contact Number" class="number"  pattern="[0-9]{10}" required>
+          
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <!-- <label for="password2">Message</label> -->
+          <input id="message" name="message" type="text" placeholder="Message"  class="message" required>
+          <div class="error"></div>
+        </div>
+        <div class="button swing">
+          
+          <button type="submit" id="clear">Enquire Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1"
+      aria-labelledby="exampleModallLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header w-100 px- py-2 text-white" style="background:
+            #ec9b00;">
+            <h3 class="modal-title " style="text-align: center !important;"
+              id="exampleModallLabel">Send Me Details</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="https://formspree.io/f/moqzqyev" method="POST" class="contact_form" >
+
+                <div class="text-center">
+                <img src="./Images/logo.png" alt="" srcset="" style="width: 60%
+                  !important;">
+                <p>Register Here And Avail The <span style="color: red;"> Best
+                    Offers!!</span> </p>
+                    <div class="input-control">
+                      <!-- <label for="username">Name</label> -->
+                      <input id="name" name="name" type="text" placeholder="Name"
+                        class="name" required>
+                      <div class="error"></div>
+                    </div>
+                <div class="input-control">
+                  <!-- <label for="email">Email</label> -->
+                  <input id="email" name="email" type="text" placeholder="Email"
+                    class="email" required>
+                  <div class="error"></div>
+                </div>
+                <div class="input-control">
+                  <!-- <label for="password">Contact Number</label> -->
+                  <input id="number" name="number" type="tel"
+                    placeholder="Contact Number" class="number" required>
+
+                  <div class="error"></div>
+                </div>
+             
+                <div class="button swing">
+
+                  <button type="submit" id="clear" class="submitted">Submit</button>
+                </div>
+              </form>
+                     
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <footer>
+        <div class="footer"   >
+          <h6>© Candeur Crescent 2023</h6>
+          <h6><a href="Privacypolicy.html" >Privacy policy</a></h6>
+        </div>
+      </footer>
+
+
+
+
+
+   
+
+
+
+
+      <!---------------------------------------------- Script tags ------------------------------------------------->
+      <!-- <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+
+  <script>
+const form = document.querySelector('.contact_form');
+function sendMsg(e){
+  e.preventDefault();
+
+    
+    const name= document.querySelector('.name');
+
+    const email = document.querySelector('.email').value;
+
+    const number = document.querySelector('.number');
+    const message = document.querySelector('.message');
+    Email.send({
+    SecureToken : "63ef07ab-0030-44fd-885c-5005c44e914f",
+    To : 'cvinaykumar8@gmail.com',
+    From :email.value,
+    Subject : "Contact Form",
+    Body : number.value,
+    Body: name.value
+}).then(
+  message => alert(message)
+);
+}
+
+form.addEventListener('submit', sendMsg);
+
+  </script> -->
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+      <script src="jq.js"></script>
+
+
+      <script>
+  $(document).ready(function(){
+    var size = $(this).text().split(".")[1] ? $(this).text().split(".")[1].length : 0;
+  $(".counter").each (function(){
+    $(this).prop('counter',0).animate({
+      counter: $(this).text()
+    },{
+      duration:2000,
+      easing:'swing',
+      step: function(now){
+        $(this).text(parseFloat(now).toFixed(size)+'');
+      }
+  
+    })
+  });
+
+
+
+
+
+  $(".counterr").each (function(){
+    $(this).prop('counter',0).animate({
+      counter: $(this).text()
+    },{
+      duration:2000,
+      easing:'swing',
+      step: function(now){
+        $(this).text(parseFloat(now).toFixed(size)+''+"'");
+      }
+  
+    })
+  });
+});
+
+
+$(document).ready(function(){
+
+  $(".counterrr").each (function(){
+    $(this).prop('counter',0).animate({
+      counter: $(this).text()
+    },{
+      duration:2000,
+      easing:'swing',
+      step: function(now){
+        $(this).text(Math.ceil(now)+'');
+      }
+  
+    })
+  });
+});
+
+
+
+
+
+</script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    </body>
+
+  </html>
